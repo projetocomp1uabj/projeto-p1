@@ -41,8 +41,8 @@ int main() {
         return 0;
     }
 
-    for (i = 0; i < tamanho - 1; i++) {
-        for (j = 0; j < tamanho - 1 - i; j++) {
+    for (i = 0; i < tamanho - 1; i = i + 1) {
+        for (j = 0; j < tamanho - 1 - i; j = j + 1) {
             if (vetor[j] > vetor[j + 1]) {
                 k = vetor[j];
                 vetor[j] = vetor[j + 1];
@@ -52,7 +52,7 @@ int main() {
     }
 
     printf("\nResultado ordenado: {");
-    for (i = 0; i < tamanho; i++) {
+    for (i = 0; i < tamanho; i = i + 1) {
         printf("%c", vetor[i]);
         if (i < tamanho - 1) {
             printf(", ");
