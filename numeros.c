@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//utilizei string para receber os numeros todos de uma vez 
+//utilizei string para receber os numeros todos de uma vez.
 int main() {
     char entrada[100];
     int vetor[50];
