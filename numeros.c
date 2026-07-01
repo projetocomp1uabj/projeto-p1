@@ -2,7 +2,8 @@
 #include <string.h>  
 #include <stdlib.h>  
 
-#define max 100      // define uma constante, o vetor terá no máximo 100 posições
+#define max 100      
+// define uma constante, o vetor terá no máximo 100 posições
 
 int main() {
     int vetor[max];     
